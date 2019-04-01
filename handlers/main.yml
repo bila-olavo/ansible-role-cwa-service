@@ -1,0 +1,8 @@
+---
+# handlers file for ansible-role-aws-cloudwatch-service
+- name: amazon-cloudwatch-agent-restart
+  systemd:
+    name: amazon-cloudwatch-agent
+    state: restarted
+
+...
