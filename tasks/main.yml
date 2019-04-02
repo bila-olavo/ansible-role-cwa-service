@@ -12,8 +12,8 @@
 
 - name: copying json custom metrics
   copy:
-    src: default
-    dest: /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.d/default
+    src: custom-metrics-advanced-cwa.json
+    dest: /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.d/custom-metrics-advanced-cwa.json
     mode: '0755'
 
 - name: fetching CWA configuration
