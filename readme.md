@@ -1,7 +1,7 @@
 AWS Cloud Watch Agent - CWA
 =========
 
-This role will install AWS Cloud Watch Agent reponsible for pushing Custom Metrics to Cloud Watch on Debian (64-bit, stretch)
+This role will install AWS Cloud Watch Agent reponsible for pushing Custom Metrics to Cloud Watch on Debian (64-bit)
 
 Requirements
 ----------------
